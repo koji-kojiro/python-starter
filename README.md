@@ -1,5 +1,6 @@
-# python-starter -- 'module-starter' for Python
+# python-starter
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)  
+*'module-starter'* for Python.
 
 
 ## Requirements
