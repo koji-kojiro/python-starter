@@ -1,6 +1,6 @@
 # python-starter
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
-[![python](https://img.shields.io/badge/python-2.6%2B%2C%203.3%2B-red.svg)]  
+![python](https://img.shields.io/badge/python-2.6%2B%2C%203.3%2B-red.svg)  
 *'module-starter'* for Python.
 
 

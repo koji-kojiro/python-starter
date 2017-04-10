@@ -1,7 +1,7 @@
 python-starter
 ==============
 
-| |MIT License| [|python|]
+| |MIT License| |python|
 | *'module-starter'* for Python.
 
 Requirements
