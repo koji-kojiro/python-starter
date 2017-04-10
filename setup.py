@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
+from python_starter import __version__
 
 config = {
     'name': 'python-starter',
@@ -10,7 +11,7 @@ config = {
     'description': '\'module-starter\' for Python',
     'long_description': open('README.rst', 'r').read(),
     'license': 'MIT',
-    'version': '0.1.0',
+    'version': __version__,
     'install_requires': [],
     'classifiers': [
         "Programming Language :: Python",
