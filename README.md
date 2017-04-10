@@ -6,12 +6,10 @@
 
 
 ## Requirements
-**python-starter** does not require any other packages or modules. Please confirm whether the following condition is satisfied.  
 - python >= (2.6, 3.3)
 
 
 ## Installation
-Use `pip` or `easy_install`.  
 ```
 $ pip install python-starter
 ```
@@ -19,35 +17,16 @@ $ pip install python-starter
 ## Usage
 ```
 $ python-starter --help
-usage: pyton [-h] [--author [author]] [--email [email]] [--license [license]]
-             name
+usage: python-starter [options] target
 
-positional arguments:
-  name                 project name
-
-optional arguments:
-  -h, --help           show this help message and exit
+options:
   --author [author]    author name (default: git user.name)
   --email [email]      author email (default: git user.email)
   --license [license]  license (default: MIT)
                        ['None', 'LGPL', 'MPL', 'GPLv2', 'GPLv3', 'Apache', 'MIT']
+  --version            show program's version number and exit
+  --help               show this message and exit
 ``` 
-**python-starter** is designed to work with Git to minimize user input. If Git is installed on your PC, author's name and e-mail address will be automaticaly filled from git config. What you need to do is just excuting the following simple command in your terminal.  
-```
-$ python-starter {name}
-```
-Then, your project skeleton will be created with the following structure.  
-```
-{name}
-├── .gitignore
-├── LICENSE
-├── README.rst
-├── setup.py
-└── {name}
-    └── __init__.py
-
-1 directory, 5 files
-```
 
 ## Example
 ```
