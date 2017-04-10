@@ -4,6 +4,7 @@ import argparse
 import subprocess
 from core import Project
 from template.license_tmpl import candidate
+from . import __version__
 
 
 class CLI(object):
@@ -21,8 +22,12 @@ class CLI(object):
             self.git_enabled = False
 
         self.parser = argparse.ArgumentParser(
+            prog='python-starter',
+            usage='%(prog)s [options] target',
+            add_help=False,
             formatter_class=argparse.RawTextHelpFormatter)
-        self.parser.add_argument('name', type=str, help='project name')
+        self.parser._optionals.title = 'options'
+        self.parser.add_argument('name', type=str, help=argparse.SUPPRESS)
         self.parser.add_argument(
             '--author',
             type=str,
@@ -48,6 +53,12 @@ class CLI(object):
             help='license (default: MIT)\n{}'.format(candidate.keys().__str__(
             )),
             default='MIT')
+        self.parser.add_argument(
+            '--version',
+            action='version',
+            version='%(prog)s {version}'.format(version=__version__))
+        self.parser.add_argument(
+            '--help', action='help', help='show this message and exit')
 
     def run(self):
         args = self.parser.parse_args().__dict__
