@@ -128,7 +128,7 @@ ENV/
 
 
 ## License
-Distributed under MIT License.  
+Distributed under [MIT License](LICENSE).  
 
 ## Author
 [Kojiro TANI](https://github.com/koji-kojiro "koji-kojiro") (kojiro0531@gmail.com)

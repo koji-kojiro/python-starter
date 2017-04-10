@@ -143,7 +143,7 @@ Example
 License
 -------
 
-Distributed under MIT License.
+Distributed under `MIT License <LICENSE>`__.
 
 Author
 ------
