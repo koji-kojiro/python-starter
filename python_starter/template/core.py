@@ -9,8 +9,8 @@ class Template(object):
         self.body = body
         self.isdir = not self.filename
 
-    def make(self, **params):
-        path = self.path.format(**params)
+    def make(self, root, **params):
+        path = os.path.join(root, self.path.format(**params))
         filename = self.filename.format(**params)
         body = self.body.format(**params)
         Template.mktree(path)

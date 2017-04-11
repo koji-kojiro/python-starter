@@ -14,8 +14,12 @@ class Project(object):
                  author_email='author_email',
                  licence='MIT'):
         license_info = choose(licence)
+        name = filter(len, name.split('/'))
+        root = '/'.join(name[:-1])
+        name = name[-1]
         self.params = {
-            'name': os.path.dirname(name + '/'),
+            'root': root,
+            'name': name,
             'author': author,
             'author_email': author_email,
             'license': licence,
