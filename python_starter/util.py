@@ -53,7 +53,7 @@ class PythonStarterFormatter(argparse.RawTextHelpFormatter):
 
 class ListLicensesAction(argparse._HelpAction):
     def __call__(self, parser, *args, **kwargs):
-        print('|'.join(candidate.keys()))
+        print(', '.join(candidate.keys()))
         parser.exit()
 
 
