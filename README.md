@@ -20,12 +20,13 @@ $ python-starter --help
 usage: python-starter [options] target
 
 options:
-  --author [author]    author name (default: git user.name)
-  --email [email]      author email (default: git user.email)
-  --license [license]  license (default: MIT)
-                       ['None', 'LGPL', 'MPL', 'GPLv2', 'GPLv3', 'Apache', 'MIT']
-  --version            show program's version number and exit
-  --help               show this message and exit
+  --author=author    author name (default: git user.name)
+  --email=email      author email (default: git user.email)
+  --license=license  license (default: MIT)
+  --list             list available licenses
+  --version          show program's version number and exit
+  --help             show this message and exit
+                      
 ``` 
 
 ## Example
