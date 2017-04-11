@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from core import Template
-from licenses import mit, gplv2, gplv3, lgpl, mpl, apache
+from python_starter.template.core import Template
+from python_starter.template.licenses import mit, gplv2, gplv3, lgpl, mpl, apache
 
 
 class LicenseTemplate(Template):

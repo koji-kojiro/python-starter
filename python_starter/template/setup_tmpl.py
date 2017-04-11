@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from core import Template
+from python_starter.template.core import Template
 
 setup_body = '''#!/usr/bin/env python
 # -*- coding: utf-8 -*-

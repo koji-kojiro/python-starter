@@ -3,9 +3,9 @@ import os
 import sys
 import argparse
 import subprocess
-from core import Project
-from template.license_tmpl import candidate
-from . import __version__
+from python_starter.core import Project
+from python_starter.template.license_tmpl import candidate
+from python_starter import __version__
 
 
 class PythonStarterParser(argparse.ArgumentParser):

@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
-import os
 import datetime
-from template.core import Template
-from template.license_tmpl import choose
-from template.setup_tmpl import setup_tmpl
-from template.gitignore_tmpl import gitignore_tmpl
+from python_starter.template.core import Template
+from python_starter.template.license_tmpl import choose
+from python_starter.template.setup_tmpl import setup_tmpl
+from python_starter.template.gitignore_tmpl import gitignore_tmpl
 
 
 class Project(object):
