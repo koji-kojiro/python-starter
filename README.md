@@ -1,5 +1,5 @@
 # python-starter
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/koji-kojiro/python-starter/LICENSE)
 [![python](https://img.shields.io/badge/python-2.6%2B%2C%203.3%2B-red.svg)](https://pypi.python.org/pypi/python-starter)
 [![PyPI](https://img.shields.io/pypi/v/python-starter.svg)](https://pypi.python.org/pypi/python-starter)  
 *'module-starter'* for Python.
@@ -38,7 +38,7 @@ foo@bar.com
 $ python-starter example
 ```
 
-### [example/setup.py](example/setup.py)
+### [example/setup.py](https://github.com/koji-kojiro/python-starter/example/setup.py)
 ```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
@@ -68,7 +68,7 @@ if __name__ == '__main__':
     setup(**config)
 ```
 
-### [example/LICENSE](example/LICENSE)
+### [example/LICENSE](https://github.com/koji-kojiro/python-starter/example/LICENSE)
 ```
 MIT License
 
@@ -93,13 +93,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### [example/README.rst](example/README.rst)
+### [example/README.rst](https://github.com/koji-kojiro/python-starter/example/README.rst)
 ```reST
 example
 --------
 ```
 
-### [example/.gitignore](example/.gitignore)
+### [example/.gitignore](https://github.com/koji-kojiro/python-starter/example/.gitignore)
 ```
 __pycache__/
 *.py[cod]
@@ -129,7 +129,7 @@ ENV/
 
 
 ## License
-Distributed under [MIT License](LICENSE).  
+Distributed under [MIT License](https://github.com/koji-kojiro/python-starter/LICENSE).  
 
 ## Author
 [Kojiro TANI](https://github.com/koji-kojiro "koji-kojiro") (kojiro0531@gmail.com)

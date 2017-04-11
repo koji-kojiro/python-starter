@@ -44,8 +44,8 @@ Example
     foo@bar.com
     $ python-starter example
 
-`example/setup.py <example/setup.py>`__
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`example/setup.py <https://github.com/koji-kojiro/python-starter/example/setup.py>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: python
 
@@ -76,8 +76,8 @@ Example
     if __name__ == '__main__':
         setup(**config)
 
-`example/LICENSE <example/LICENSE>`__
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`example/LICENSE <https://github.com/koji-kojiro/python-starter/example/LICENSE>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ::
 
@@ -103,16 +103,16 @@ Example
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 
-`example/README.rst <example/README.rst>`__
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`example/README.rst <https://github.com/koji-kojiro/python-starter/example/README.rst>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: rest
 
     example
     --------
 
-`example/.gitignore <example/.gitignore>`__
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`example/.gitignore <https://github.com/koji-kojiro/python-starter/example/.gitignore>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ::
 
@@ -144,7 +144,8 @@ Example
 License
 -------
 
-Distributed under `MIT License <LICENSE>`__.
+Distributed under `MIT
+License <https://github.com/koji-kojiro/python-starter/LICENSE>`__.
 
 Author
 ------
@@ -152,7 +153,7 @@ Author
 `Kojiro TANI <https://github.com/koji-kojiro>`__ (kojiro0531@gmail.com)
 
 .. |MIT License| image:: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
-   :target: LICENSE
+   :target: https://github.com/koji-kojiro/python-starter/LICENSE
 .. |python| image:: https://img.shields.io/badge/python-2.6%2B%2C%203.3%2B-red.svg
    :target: https://pypi.python.org/pypi/python-starter
 .. |PyPI| image:: https://img.shields.io/pypi/v/python-starter.svg
