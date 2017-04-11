@@ -63,7 +63,7 @@ class PythonStarter(object):
             author = subprocess.check_output(
                 'git config --get user.name'.split()).rstrip()
             email = subprocess.check_output(
-                'gita config --get user.email'.split()).rstrip()
+                'git config --get user.email'.split()).rstrip()
             self.git_enabled = True
         except:
             author = ''
