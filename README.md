@@ -1,5 +1,5 @@
 # python-starter
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/koji-kojiro/blob/master/python-starter/LICENSE)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/koji-kojiro/python-starter/blob/master/LICENSE)
 [![python](https://img.shields.io/badge/python-2.6%2B%2C%203.3%2B-red.svg)](https://pypi.python.org/pypi/python-starter)
 [![PyPI](https://img.shields.io/pypi/v/python-starter.svg)](https://pypi.python.org/pypi/python-starter)  
 *'module-starter'* for Python.
