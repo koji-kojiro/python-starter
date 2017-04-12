@@ -153,7 +153,7 @@ Author
 `Kojiro TANI <https://github.com/koji-kojiro>`__ (kojiro0531@gmail.com)
 
 .. |MIT License| image:: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
-   :target: https://github.com/koji-kojiro/blob/master/python-starter/LICENSE
+   :target: https://github.com/koji-kojiro/python-starter/blob/master/LICENSE
 .. |python| image:: https://img.shields.io/badge/python-2.6%2B%2C%203.3%2B-red.svg
    :target: https://pypi.python.org/pypi/python-starter
 .. |PyPI| image:: https://img.shields.io/pypi/v/python-starter.svg
