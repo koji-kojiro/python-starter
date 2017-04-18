@@ -73,11 +73,15 @@ class PythonStarter(object):
         self.parser = PythonStarterParser(
             prog='python-starter',
             add_help=False,
-            usage='%(prog)s [options] target',
+            usage='%(prog)s [options] target...',
             formatter_class=PythonStarterFormatter)
         self.parser._optionals.title = 'options'
         self.parser.add_argument(
-            'name', type=str, metavar='target', help=argparse.SUPPRESS)
+            'name',
+            type=str,
+            metavar='target',
+            nargs='+',
+            help=argparse.SUPPRESS)
         self.parser.add_argument(
             '--author',
             type=str,
@@ -115,14 +119,16 @@ class PythonStarter(object):
 
     def run(self):
         args = self.parser.parse_args().__dict__
-        project = Project(**args)
-        project.make()
-        if self.git_enabled:
-            with open(os.path.devnull, 'w') as fp:
-                subprocess.call(
-                    'git init {}'.format(args['name']).split(),
-                    stdout=fp,
-                    stderr=subprocess.STDOUT)
+        targets = args.pop('name')
+        for target in targets:
+            project = Project(name=target, **args)
+            project.make()
+            if self.git_enabled:
+                with open(os.path.devnull, 'w') as fp:
+                    subprocess.call(
+                        'git init {}'.format(target).split(),
+                        stdout=fp,
+                        stderr=subprocess.STDOUT)
 
 
 def main():
