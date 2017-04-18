@@ -3,6 +3,7 @@ import os
 import sys
 import argparse
 import subprocess
+from platform import python_version
 from python_starter.core import Project
 from python_starter.template.license_tmpl import candidate
 from python_starter import __version__
@@ -113,7 +114,8 @@ class PythonStarter(object):
         self.parser.add_argument(
             '--version',
             action='version',
-            version='%(prog)s {version}'.format(version=__version__))
+            version='%(prog)s {0} (python {1})'.format(__version__,
+                                                       python_version()))
         self.parser.add_argument(
             '--help', action='help', help='show this message and exit\n ')
 
